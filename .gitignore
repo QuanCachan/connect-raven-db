@@ -1,0 +1,9 @@
+.settings/
+**/META-INF/
+bin/
+.project
+.classpath
+**/target/
+.idea/
+.metadata/
+connect-to-ravendb.iml
