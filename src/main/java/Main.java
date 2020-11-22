@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         DocumentStore store = DocumentStoreHolder.getStore();
         try (IDocumentSession session = store.openSession()) {
-            /*Inventory inventory = new Inventory();
+            Inventory inventory = new Inventory();
             inventory.setName("Entrepote");
 
             session.store(inventory);                            // Assign an 'Id' and collection (Inventories)
@@ -21,7 +21,7 @@ public class Main {
             // and start tracking an entity
 
             session.saveChanges();                              // Send to the Server
-            // one request processed in one transaction*/
+            // one request processed in one transaction
 
             Zone loadedZone = session.load(Zone.class, "zones/1-A");
             System.out.println(loadedZone);
