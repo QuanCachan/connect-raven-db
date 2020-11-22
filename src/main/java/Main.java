@@ -27,6 +27,8 @@ public class Main {
             System.out.println(loadedZone);
             System.out.println("Name: "+ loadedZone.getName()
                     +" , Inventory: " + loadedZone.getInventory());
+
+            System.out.println("test");
         }
     }
 }
